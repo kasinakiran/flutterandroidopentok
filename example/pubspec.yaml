@@ -1,0 +1,24 @@
+name: opentokandroid_example
+description: Demonstrates how to use the opentokandroid plugin.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  opentokandroid:
+    path: ../
+  cupertino_icons: ^0.1.3
+  permission_handler: ^5.0.1+1
+  fluttertoast: ^7.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+
